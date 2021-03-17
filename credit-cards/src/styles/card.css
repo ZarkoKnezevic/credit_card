@@ -1,0 +1,48 @@
+.card__container {
+  margin-bottom: 25px;
+}
+
+.card__container:last-child {
+  margin-bottom: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 250px;
+  padding: 25px;
+  border-radius: 15px;
+  color: white;
+  background-image: linear-gradient(270deg, #ccc, #999);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__logo {
+  align-self: flex-end;
+}
+
+.card__chip {
+  width: 50px;
+}
+
+.logo {
+  width: 80px;
+}
+.card__number {
+  display: flex;
+  font-size: 35px;
+}
+
+.card__info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.card__infoExpiry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

@@ -1,0 +1,33 @@
+.form {
+  width: 400px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #efefef;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.form__section {
+  display: flex;
+}
+
+.form__section input {
+  width: 22%;
+  margin-right: 4%;
+}
+
+.form__section input:last-child {
+  margin-right: 0;
+}
+
+.form__submit {
+  color: white;
+  background-color: #4a7eb6;
+}
